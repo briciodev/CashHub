@@ -1,0 +1,15 @@
+{
+  "name": "cashhub-frontend",
+  "version": "1.0.0",
+  "description": "CashHub - Personal Finance Dashboard",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "http-server . -p 5500 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.8.3"
+  }
+}
